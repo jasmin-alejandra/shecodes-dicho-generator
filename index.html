@@ -2,23 +2,36 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Jasmin Dicho Generator</title>
   </head>
 
   <body>
     <header>
-      <h1>AI Spanish Dicho Generator</h1>
+      <h1>AI Dicho Generator</h1>
     </header>
     <main class="container">
       <div class="site-description">
         This site will generate a "dicho," a saying in Spanish, related to the
         subject provided.
       </div>
-      <form class="subject">
-        <input type="text" placeholder="Enter the subject" autofocus required />
-        <input type="submit" />
+      <form>
+        <input
+          class="subject"
+          type="text"
+          placeholder="Enter the subject"
+          autofocus
+          required
+        />
+        <input class="submit-button" type="submit" />
       </form>
       <div class="dicho">The dicho will go here.</div>
     </main>
