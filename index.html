@@ -6,9 +6,38 @@
     <link rel="stylesheet" href="src/style.css" />
     <title>Jasmin Dicho Generator</title>
   </head>
+
   <body>
-    This site will generate a "dicho," a saying in Spanish, related to the
-    subject provided.
+    <header>
+      <h1>AI Spanish Dicho Generator</h1>
+    </header>
+    <main class="container">
+      <div class="site-description">
+        This site will generate a "dicho," a saying in Spanish, related to the
+        subject provided.
+      </div>
+      <form class="subject">
+        <input type="text" placeholder="Enter the subject" autofocus required />
+        <input type="submit" />
+      </form>
+      <div class="dicho">The dicho will go here.</div>
+    </main>
+
+    <footer>
+      This site was coded by
+      <a href="https://github.com/jasmin-alejandra" target="_blank"
+        >Jasmin Gonzalez</a
+      >
+      and is open-sourced on
+      <a
+        href="https://github.com/jasmin-alejandra/shecodes-dicho-generator"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub</a
+      >
+      and hosted on Netlify.
+    </footer>
   </body>
   <script src="src/index.js"></script>
 </html>
