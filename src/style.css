@@ -27,7 +27,7 @@ h1 {
 
 form {
   align-content: space-around;
-  column-gap: 10px;
+  column-gap: 5px;
   display: flex;
   flex-wrap: wrap;
   margin: 20px auto;
@@ -71,7 +71,7 @@ footer {
   font-family: "Noto Sans", sans-serif;
   font-size: 14px;
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 500px;
   text-align: center;
 }
 a {
