@@ -16,8 +16,8 @@ function generateDicho(event) {
   let subjectInput = document.querySelector("#subject");
   let context = subjectInput.value;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
-  console.log(context);
-  console.log("generating poem");
+  let dichoElement = document.querySelector(".dicho");
+  dichoElement.innerHTML = `Searching for a dicho about ${context}...`;
   axios.get(apiUrl).then(displayDicho);
 }
 let dichoFormElement = document.querySelector("#dicho-form");
